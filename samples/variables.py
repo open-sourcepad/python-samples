@@ -7,9 +7,10 @@ a = b = 2
 print ("%d %d" %(a, b))
 
 # tuples
-tuple1 = (1, 2, 3)
-tuple2 = ('a', 'b', 'c')
-tuple3 = (1, 'b', 'c')
+tuple1 = (1, 2, 3,)
+tuple2 = ('a', 'b', 'c',)
+tuple3 = (1, 'b', 'c',)
+tuple4 = ('this is a value',)
 
 # lists
 list1 = [1, 2, 3]
