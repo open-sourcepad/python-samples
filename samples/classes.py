@@ -15,6 +15,18 @@ class Child2(Base, Base2):
         super().run()
         print(self.value)
 
+class Child3:
+    def run(self):
+        self.test()
+
+    @property
+    def sample_property(self):
+        print("this is a property")
+
+    @classmethod
+    def test(self):
+        print('tester')
+
 
 if __name__ == '__main__':
-    Child1().run()
+    Child3().sample_property
