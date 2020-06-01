@@ -36,4 +36,4 @@ Run install.sh
 > \> ./install.sh
 
 Run certain python file
-> \> python3 samples/<file>.py
+> \> python3 samples/\<file\>.py
