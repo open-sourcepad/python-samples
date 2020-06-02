@@ -3,6 +3,9 @@
 ##### Requirements
 - python 3.x
 - pip3
+- pipenv
+
+##### Optional
 - virtualenv
 
 Process for `python3.x`
