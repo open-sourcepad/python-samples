@@ -5,38 +5,55 @@
 - pip3
 - virtualenv
 
-Check if python3.x is installed
+Process for `python3.x`
+```
 > python3 --version
 
-Check if pip3 is installed
-> pip3 --version
+If not installed
 
-Check if virtualenv is installed
-> virtualenv --version
-
-If python3 is not installed
+LINUX:
 > sudo apt-get install python3
 
-If pip3 is not installed
+MACOS
+> brew install python3
+```
+
+Process for `pip3`
+```
+> pip3 --version
+
+If not installed
 > sudo apt-get install python3-pip
-> OR
+
+OR
+
 > curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 > python3 get-pip.py --user
+```
 
-If virtualenv is not installed
-> pip3 install virtualenv
+Process for `pipenv`
+```
+> pipenv --version
 
-Create virtualenv
-> virtualenv <name_of_env>
+If not installed
+> pip3 install pipenv
+```
+
+Installation
+> pipenv install -d
+
+Run
+```
+via pipenv
+> pipenv run python3 samples/<file>.py
+
+OR
+
+If virtualenv is activated
+> python3 samples/<file>.py
+```
 
 Activate virtualenv
-> source <name_of_env>/bin/activate
-
-Deactivate virtualenv
-> deactivate
-
-Run install.sh
-> ./install.sh
-
-Run certain python file
-> python3 samples/\<file\>.py
+```
+> source `pipenv --venv`/bin/activate
+```
