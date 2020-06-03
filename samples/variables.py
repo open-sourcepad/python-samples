@@ -28,6 +28,7 @@ set1.update('value')
 
 # dictionaries
 dict1 = {'key1': 'value1', 'key2': 2}
+dict1 = dict(key1='value1', key2=2)
 
 ## dictionaries update
 dict1['key3'] = 'value3'
