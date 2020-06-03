@@ -58,5 +58,8 @@ If virtualenv is activated
 
 Activate virtualenv
 ```
+> pipenv shell
+
+If that doesn't work
 > source `pipenv --venv`/bin/activate
 ```
