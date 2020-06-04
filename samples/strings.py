@@ -1,7 +1,6 @@
 string_sample_1 = 'this is also a string'
 print(string_sample_1)
 
-# double quotes allows escape strings, formats, and string manipulations
 string_sample_2 = "this is a sample string"
 print(string_sample_2)
 
